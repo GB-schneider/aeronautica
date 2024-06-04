@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeronautica</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            height: 200px;
+            background-color: #343a40;
+            border-bottom: 3px solid #00d1b2;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand img {
+            max-height: 50px;
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            font-size: 1.1rem;
+            margin-right: 15px;
+        }
+
+        .jumbotron {
+            background-image: url('img/46z2uynnohe71.webp');
+            background-size: cover;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+            padding: 200px 0;
+            margin-bottom: 0;
+            margin-top: 100px;
+        }
+
+        .jumbotron h1 {
+            font-weight: 700;
+        }
+
+        .jumbotron .btn {
+            background-color: #00d1b2;
+            border: none;
+        }
+
+        .features-section {
+            padding: 80px 0;
+            background-color: #e9ecef;
+        }
+
+        .features-section h2 {
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .features-section p {
+            font-size: 1.1rem;
+        }
+
+        .jumbotron3 {
+            background-color: #fff;
+            color: #00065c;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+            padding: 100px 0;
+        }
+
+        .jumbotron3 h1 {
+            font-weight: 700;
+        }
+
+        .production-section {
+            padding: 80px 0;
+            background-color: #e9ecef;
+            display: flex;
+            align-items: center;
+        }
+
+        .production-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .jumbotron-2 {
+            background-image: url('img/Knaapo_Su-57_production101 (1).png');
+            background-size: 900px 1000px;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+            padding: 250px 0;
+            border-radius: 25px;
+            margin-top: 50px;
+            width: 100%;
+            left: 100%;
+            right: 100%;
+        }
+
+        .container h2 {
+            margin-top: 50px;
+        }
+
+        .container .form-group {
+            margin-top: 20px;
+        }
+
+        .container .btn {
+            background-color: #00d1b2;
+            border: none;
+            margin-top: 20px;
+        }
+
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .navbar {
+            height: 100px;
+            animation: slideInDown 0.25s ease-in-out forwards;
+        }
+
+        .navbar-hide {
+            transform: translateY(-100%);
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+            margin-top: 300px;
+        }
+
+        .footer a {
+            color: #00d1b2;
+        }
+
+        .footer a:hover {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="img/pngwing.com.png" alt="Logo">
+        Aeronautica
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#features">Características </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Aero force</h1>
+        <p class="lead">Mire alto, voe baixo</p>
+        <a class="btn btn-primary btn-lg " href='https://www.defense.gouv.fr/air' role="button">Ver mais </a>
+    </div>
+</div>
+
+<div id="features" class="features-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>Tecnologia</h2>
+                <p>A aeronáutica é conhecida por sua inovação tecnológica constante, com desenvolvimentos em materiais leves,
+                    aerodinâmica avançada, sistemas de controle de voo, e propulsão mais eficiente. Esses avanços permitem que aeronaves
+                    sejam mais seguras, rápidas e econômicas.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Segurança</h2>
+                <p>A segurança é uma prioridade máxima na aeronáutica. Isso inclui rigorosos padrões de manutenção, sistemas redundantes
+                    para prevenir falhas, e treinamento intenso para pilotos e equipe de solo. A indústria trabalha continuamente para
+                    minimizar riscos e aumentar a confiabilidade das operações de voo.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Zero poluição</h2>
+                <p>A aeronáutica está cada vez mais focada em reduzir seu impacto ambiental. Isso inclui o desenvolvimento de combustíveis
+                    mais limpos, aeronaves mais eficientes em termos de consumo de combustível, e a implementação de práticas operacionais
+                    que minimizam a emissão de gases de efeito estufa e o ruído.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron3 jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Marque a história da aeronáutica mundial</h1>
+    </div>
+</div>
+
+<div id="production" class="production-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Produção</h2>
+                <p>A fabricação de aviões é um processo complexo e altamente especializado que envolve várias etapas e requer a colaboração
+                    de diversas disciplinas de engenharia. O processo começa com a fase de projeto e desenvolvimento, onde engenheiros e
+                    designers definem os requisitos e especificações da aeronave. Isso inclui a aerodinâmica, sistemas de propulsão,
+                    eletrônica de bordo, armamentos e sistemas de defesa. Modelos e protótipos são criados e testados em túnel de vento e
+                    em simulações para garantir que o design atenda aos critérios de desempenho e segurança.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <div class="jumbotron-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="container">
+    <h2>Contate-nos</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" class="form-control" id="name" placeholder="seu nome">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="seu email">
+        </div>
+        <div class="form-group">
+            <label for="message">mensagem</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="sua mensagem para nós"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h5>ideias</h5>
+                <p>A aeronáutica é um campo fascinante que abrange uma variedade de áreas, desde o desenvolvimento de aeronaves inovadoras até serviços especializados para todos que buscam</p>
+            </div>
+            <div class="col-lg-4">
+                <h5>Navegação</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5>Contato</h5>
+                <ul class="list-unstyled">
+                    <li>Email: info@aeronautica.com</li>
+                    <li>Telefone: +55 13996324243</li>
+                    <li>Endereço: Rua Tres, 3, Registro, Brasil</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p>&copy; 2024 Aeronautica. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
